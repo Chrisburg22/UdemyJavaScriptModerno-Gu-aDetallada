@@ -1,0 +1,19 @@
+{
+  "name": "udemyjavascriptmoderno-gu-adetallada",
+  "version": "1.0.0",
+  "description": "Curso en Udemy de JavaScript Moderno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisburg22/UdemyJavaScriptModerno-Gu-aDetallada.git"
+  },
+  "author": "Christian Ramos <chrisburg1222@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chrisburg22/UdemyJavaScriptModerno-Gu-aDetallada/issues"
+  },
+  "homepage": "https://github.com/Chrisburg22/UdemyJavaScriptModerno-Gu-aDetallada#readme"
+}
