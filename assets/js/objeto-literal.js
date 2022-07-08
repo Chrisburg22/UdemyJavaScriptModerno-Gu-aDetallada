@@ -36,3 +36,22 @@ console.log('Última película: ', personaje["Última película"]);
 
 delete personaje.edad;
 console.log(personaje);
+
+personaje.casado = true; // Agregamos una nueva propiedad llamada casado al objeto personaje
+
+const entriesPares = Object.entries( personaje );//Este metodo me retorna un array de array que contiene a cada propiedad con su respectivo valor convertidos en arrays
+console.log( entriesPares );
+
+Object.freeze( personaje );//Conjela el objeto tal cual esta y bloquea cualquier cambio que se quiera realizar en el. Si dentro de este objeto hay otro objeto debemos tambien hacer 
+                                          //freeze de este, de lo contrario si podra ser modificado
+
+personaje.dinero = 100000000;
+console.log( personaje );
+
+//Con estos dos metodos podemos conocer el nombre y los valores de las propiedades de un objeto como si fueras un array de strings
+const propiedades = Object.getOwnPropertyNames( personaje );//Crea un nuevo array con el objeto, las propiedades del objeto las transforma en strings del mismo array.
+const valores          = Object.values( personaje );//Crea un array con el objeto, los valores de las propiedades se trnaforman en string para el nuevo array
+console.log( {propiedades, valores} );
+
+
+
