@@ -49,7 +49,7 @@ console.log( `4 Operadores Or`, true || true || true || false );
  const a2 = 'Hola' && 'Mundo' && true && false;//false
  const a3 = soyFalse || 'Ya no soy falso'; //Ya no soy falso
  const a4 = soyFalse || soyNull || soyUndefined || 'Ya no soy null, ni false y menos undefined' || true;
- const a5 = soyFalse || soyNull || regresaFalse() || regresaTrue || 'Ya nos soy false nunca más';
+ const a5 = soyFalse || soyNull || regresaFalse() || regresaTrue() || 'Ya nos soy false nunca más';
 
  console.log( {a1, a2, a3, a4, a5} );
 
